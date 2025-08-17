@@ -1,0 +1,29 @@
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de dependencias
+*.egg-info/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar datos grandes (añadir aquí los nombres de tus archivos de datos)
+data/raw/
+data/processed/
+
+# Credenciales y secretos
+*.secret
+*.key
+credentials.json
